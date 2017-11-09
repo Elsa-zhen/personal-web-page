@@ -1,0 +1,264 @@
+
+
+	/*头部开始*/
+header{
+	width:100%;
+	height:103px;
+}
+.head-width{
+	width:1264px;
+	height:103px;
+	padding:0 20px;
+	margin:0 auto;
+	background-color:#fff;
+}
+.logo-title{
+	width:100%;
+	height:50px;
+	overflow:hidden;
+}
+.logo-title a{
+	display:block;
+	font-size:20px;
+	color:#111;
+	text-align:center;
+	margin-top:30px;
+}
+.head-nav{
+	height:40px;
+	margin-top:13px;
+	border-bottom:1px solid #000;
+	text-align: center;
+}
+.head-nav li{
+	color:#333;
+	font-size:12px;
+	line-height:40px;
+	padding:0 10px;
+	display: inline-block;
+}
+.head-nav li a{
+	color:#333;
+}
+.head-nav li:hover{
+	font-size:18px;
+}
+.head-nav li a:hover{
+	color:#84d8d1;
+}
+	/*头部结束*/
+
+	/*一楼开始*/
+.floor-one{
+	width:1224px;
+	height:698px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.banner-imgbox{
+	width:1224px;
+	height:698px;
+	background-image:url("../img/banner3.jpeg");
+	background-size:cover;
+	background-position:top center;
+	background-repeat:no-repeat;
+	position:relative;
+}
+.banner-imgbox h5{
+	line-height:25px;
+	font-size:23px;
+	color:#84d8d1;
+	position:absolute;
+	left:43%;
+	top:50%;
+}
+	/*一楼结束*/
+
+	/*二楼开始*/
+.floor-two{
+	width:1224px;
+	height:1005px;
+	padding-top:16px;
+	border-bottom:1px #000 solid;
+	margin:0 auto;
+}
+.floor-two-left{
+	width:483px;
+	height:715px;
+	float:left;
+	background-color:#fff;
+}
+.floor-two-left li{
+	width:100%;
+	height:213px;
+	padding:66px 48px 43px;
+}
+.floor-two-left li h5{
+	line-height:27px;
+	font-size:25px;
+	text-align:center;
+}
+.floor-two-left li h5 a{
+	color:#000;
+}
+.floor-two-left li p{
+	font-size:13px;
+	line-height:19px;
+	text-align:center;
+	margin:10px 0;
+	color:#000;
+}
+.floor-two-left li h6{
+	font-size:12px;
+	line-height:16px;
+	text-align:center;
+	margin-top:20px;
+}
+.floor-two-left li h6 a{
+	color:#000;
+}
+.border-bottom{
+	width:386px;
+	height:1px;
+	background-color:#000;
+	margin:0 auto;
+}
+.floor-two-right{
+	width:730px;
+	height:980px;
+	margin-left:11px;
+	float:left;
+}
+.floor-two-right li{
+	width:730px;
+	height:484px;
+	margin-bottom:10px; 
+	position:relative;
+}
+.floor-two-right li img{
+	width:100%;
+	height:100%;
+}
+.right-img-zhezhao{
+	width:730px;
+	height:484px;
+	background-color:rgba(0,0,0,0.6);
+	position:absolute;
+	left:0;
+	bottom:0;
+	display:none;
+}
+.floor-two-right li:hover .right-img-zhezhao{
+	display:block;
+}
+.right-img-zhezhao h5{
+	line-height:19px;
+	font-size:13px;
+	text-align:center;
+	margin-top:150px;
+}
+.right-img-zhezhao h5 a{
+	color:#fff;
+}
+.right-img-zhezhao p{
+	line-height:27px;
+	font-size:25px;
+	text-align:center;
+	margin:20px;
+	color:#fff;
+}
+.right-img-zhezhao h6{
+	line-height:19px;
+	font-size:13px;
+	text-align:center;
+	margin-top:40px;
+}
+.right-img-zhezhao h6 a{
+	color:#fff;
+}
+	/*二楼结束*/
+
+		/*底部开始*/
+footer{
+	width:1224px;
+	height:321px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.hr{
+	width:100%;
+	height:10px;
+	background-color:#84d8d1;
+}
+.bottom-list{
+	width:25%;
+	padding:10px;
+	margin-top:30px;
+	float:left;
+}
+.bottom-list-box{
+	text-align:center;
+	margin-bottom:20px;
+}
+.bottom-list .bottom-list-box a{
+	font-size:16px;
+	color:#333;
+	line-height:18px;
+	padding:5px 0;
+	display:block;
+}
+.bottom-list li a{
+	text-align:center;
+	font-size:12px;
+	line-height:13px;
+	color:#888;
+	padding:5px 0;
+	display:block;
+}
+.bottom-list input{
+	width:177px;
+	height:42px;
+	padding:12px 17px;
+	background-color:#fafafa;
+	border:none;
+	outline:none;
+}
+.bottom-list button{
+	width:45px;
+	height:42px;
+	color:#000;
+	background-color:#84d8d1;
+	border:none;
+	outline:none;
+}
+.bottom-end{
+	width:100%;
+	height:55px;
+	border-top:1px #111 solid;
+	padding:30px 50px 0 50px;
+	margin-top:10px;
+	float:left;
+}
+.bottom-end-left{
+	width:365px;
+	height:24px;
+	line-height:24px;
+	font-size:18px;
+	color:#111;
+	float:left;
+}
+.bottom-end-right{
+	height:24px;
+	line-height:24px;
+	float:right;
+}
+.bottom-end-right li{
+	float:left;
+}
+.bottom-end-right li a{
+	font-size:14px;
+	color:#111;
+	padding:0 10px;
+	display:block;
+}
+	/*底部结束*/

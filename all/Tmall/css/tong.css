@@ -1,0 +1,17 @@
+*{
+	margin:0;     /*清除body身上的，8px*/
+   	text-decoration:none;   /*清除a标签的下划线  none为空*/
+   	padding:0;    			/*清除input的身上的padding值*/
+	box-sizing:border-box;  /*浏览器会自动把padding值和border值加入盒子中，不需要我们去减了*/
+   	box-sizing:content-box;   /*默认值*/
+	list-style:none;			/*针对列表标签的默认样式（原点）*/
+	font-weight:normal;
+	font-style:normal;			/*i标签斜体*/
+	border:none;					/*input的边框 border:0;*/
+
+}
+img{
+	width:100%;
+	height:100%;
+	display:block;
+}
