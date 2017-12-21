@@ -9,6 +9,7 @@ var myScroll=new IScroll(".content",{
 var mySwiper = new Swiper ('.swiper-container', {
     // direction: 'vertical',
     loop: true,
+    autoplay:true,
 
     // 如果需要分页器
     pagination: {
@@ -32,7 +33,7 @@ var state="wait";
                 state='done';
             }
         reWrite();
-        myIScroll.scrollTo(0, 0, 0);//每次重绘要回到顶部
+        // myIScroll.scrollTo(0, 0, 0);//每次重绘要回到顶部
     });
 
     $('#add').click(function(){

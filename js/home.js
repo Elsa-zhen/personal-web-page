@@ -84,7 +84,7 @@
 
         }
 
-        long.addEventListener('transitionend', function () {
+        long.addEventListener('transitionend', function () {    //transitionend过渡动画结束
             flag = true;
             if (num == 12) {
                 long.style.transition = 'none';
